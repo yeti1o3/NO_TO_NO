@@ -1,3 +1,35 @@
+body{
+  background-color: rgb(254, 225, 229);
+}
 .moving-button{
   position: absolute;
+}
+.image{
+  margin:30px auto;
+  margin-bottom: 5px;
+  width: 500px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
+.text{
+  margin: 0px auto;
+  font-weight: 900;
+  font-size: 20px;
+  padding: 3px;
+  width:fit-content ;
+}
+.yes-button{
+  width:100px;
+  height: 40px;
+  border-radius: 5px;
+}
+.moving-button{
+  width:100px;
+  height: 40px;
+  border-radius: 5px;
 }

@@ -1,7 +1,7 @@
 import './App.css';
 import React from 'react';
 import { useState } from 'react';
-import img from './gaalpookie.gif';
+import img from './images/irritate.gif';
 
 function App() {
   const[position,setPosition]=useState({top:'50%',left:'50%'});

@@ -1,21 +1,17 @@
-import first from './images/up-movie-carl.gif'
-import second from './images/up-movie-love.gif'
+
 import './LastPage.css'
+import first from './images/giphy.gif'
 function LastPage()
 {
 
     return (
         <div className='last-page'>
-            <div className='first'>
-                <img src={first} alt="carl"/>
-            </div>
-            <div className='last-page-text'>
-                text
-            </div>
-            <div className='second'>
-                <img src={second} alt="carl"/>
-            </div>
+           <img className='last-page-image' src={first} alt="cat"/>
+           <div className='last-page-text mukta-bold' >
+            I LOVE YOU LOVE YOU LOVE YOU KI POWER INFINITY
         </div>
+        </div>
+        
     )
 }
 export default LastPage;

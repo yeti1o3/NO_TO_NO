@@ -1,20 +1,22 @@
-*{
-    background-color: black;
-}
+
 .last-page{
     width: 100vw;
     height: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
-.first{
-    width:250px;
-    height: auto;
+.last-page-image{
+    width: 300px;
 }
 .last-page-text{
-    border: 2px solid white;
+    color: white;
+    font-size: 50px;
+    
 }
-.second{
-    width:200px;
-    height: auto;
-}
+.mukta-bold {
+    font-family: "Mukta", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }

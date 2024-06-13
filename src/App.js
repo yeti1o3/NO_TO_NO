@@ -53,7 +53,7 @@ function App() {
   function handleYes()
   {
     setClickCount(clickCount+1);
-    setPosition({top:'47%',left:'50%'});
+    setPosition({top:'50%',left:'50%'});
   }
   function handleNO()
   {

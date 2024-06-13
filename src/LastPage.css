@@ -1,0 +1,20 @@
+*{
+    background-color: black;
+}
+.last-page{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.first{
+    width:250px;
+    height: auto;
+}
+.last-page-text{
+    border: 2px solid white;
+}
+.second{
+    width:200px;
+    height: auto;
+}

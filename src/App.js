@@ -36,7 +36,7 @@ function App() {
   
   function handleMouseEnter()
   {
-    if(clickCount==11)
+    if(clickCount===11)
       {
         setNope("yes yes yes");
       }

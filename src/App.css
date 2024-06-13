@@ -11,6 +11,7 @@ body{
   height: 300px;
   display: flex;
   justify-content: center;
+
 }
 img{
   max-width: 100%;
@@ -28,7 +29,7 @@ img{
   height: 50px;
   border-radius: 10px;
   position: absolute;
-  top:47%;
+  top:50%;
   left:35%;
 }
 .moving-button{

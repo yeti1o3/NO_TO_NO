@@ -30,7 +30,7 @@ function App() {
     10:{image:img10,text:"all youres 😁",yes:"all mine all mine ❣️😍",no:"u can have side chick (but gonna die)💀",b:false},
     11:{image:img11,text:"will u be my girlfriend i love you ❤️",yes:"yes yes yes",no:"no no no",b:false }
 }
-  const[position,setPosition]=useState({top:'47%',left:'58%'});
+  const[position,setPosition]=useState({top:'50%',left:'58%'});
   const[clickCount,setClickCount]=useState(0);
   const[nope,setNope]=useState("")
   

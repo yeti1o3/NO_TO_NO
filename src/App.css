@@ -24,12 +24,18 @@ img{
   width:fit-content ;
 }
 .yes-button{
-  width:100px;
+  width:200px;
   height: 40px;
-  border-radius: 5px;
+  border-radius: 10px;
+  position: absolute;
+  top:47%;
+  left:30%;
 }
 .moving-button{
-  width:100px;
+  width:200px;
   height: 40px;
-  border-radius: 5px;
+  border-radius: 10px;
+}
+button{
+  border: 1px solid rgb(255, 178, 191);
 }

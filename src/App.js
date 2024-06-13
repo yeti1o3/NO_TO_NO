@@ -30,7 +30,7 @@ function App() {
     10:{image:img10,text:"all youres 😁",yes:"all mine all mine ❣️😍",no:"u can have side chick (but gonna die)💀",b:false},
     11:{image:img11,text:"will u be my girlfriend i love you ❤️",yes:"yes yes yes",no:"no no no",b:false }
 }
-  const[position,setPosition]=useState({top:'50%',left:'58%'});
+  const[position,setPosition]=useState({top:'50%',left:'50%'});
   const[clickCount,setClickCount]=useState(0);
   const[nope,setNope]=useState("")
   
@@ -70,7 +70,7 @@ function App() {
         </button>
         <button
         className='moving-button '
-        style={obj[clickCount].b?{top:position.top,left:position.left}:{top:'47%',left:'49%'}}
+        style={obj[clickCount].b?{top:position.top,left:position.left}:{top:'50%',left:'50%'}}
         onClick={handleNO}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
